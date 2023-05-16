@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Tests.UserManagementFunctionality">
+        <methods>
+          <include name="Verification_Of_JU_Can_See_Role_Change_Proposed_BY_Another_JU_Under_Jurisdiction_User_Role_Type"/>
+          <include name="verification_Of_JU_Can_Approve_Role_Change_Prposed_By_Another_JU_Under_Service_Provider_Role_Type"/>
+          <include name="verification_Of_JU_Registrar_is_Try_To_Able_Approve_Its_Own_Proposed_Changes"/>
+          <include name="verification_OF_Profiles_details_Upadte_Functionality_For_Fields_Which_Do_Not_Require_Approval"/>
+          <include name="verification_Of_functionality_Of_Authority_Approval_For_Role_Change_Within_The_Jurisdiction_User_Role_Type"/>
+          <include name="Verification_Of_functionality_Of_Authority_Approval_For_Role_Change_From_Service_Provider_To_Jurisdiction_User"/>
+          <include name="verification_Of_JU_Authority_Deny_Functionality_To_Proposed_Role_Changes"/>
+          <include name="verification_Of_User_Is_Able_Download_The_Cross_Jurisdiction_Attestation_Form"/>
+          <include name="verification_Of_JU_Can_View_Role_History_Of_Users_Registered_In_Their_Jurisdiction"/>
+          <include name="Verify_JU_can_share_Cross_PJ_requests_initiated_by_its_users_with_other_than_the_requested_Jurisdiction"/>
+          <include name="Verification_Of_Terms_And_Conditions_Functionality"/>
+          <include name="verification_Of_Deny_Functionality_For_JU_To_Its_Own_Proposed_Changes"/>
+          <include name="verify_Availability_For_Unshare_User_Profile_Option_For_Cross_PJ_Users_TO_Jurisdiction_User"/>
+          <include name="teardown"/>
+          <include name="Verification_of_Availability_and_accessibility_of_Change_Passphrase_and_Security_Questions_on_User_Profile_for_ApprovedUser"/>
+          <include name="verification_Of_JU_Can_See_Role_Change_Proposed_BY_Another_JU_Under_Service_Provider_Role_Type"/>
+          <include name="verification_Of_JU_Can_See_Role_Change_Proposed_BY_Another_JU_Under_Individual_User_Or_Technical_Admin_Role_Type"/>
+          <include name="verification_Of_The_User_details_Functionality_Of_user_Account_status"/>
+          <include name="Verification_of_login_functionality_after_JU_Set_user_account_status_to_Inactive"/>
+          <include name="start"/>
+          <include name="clearSecurityAnswer"/>
+          <include name="setup"/>
+          <include name="verification_Of_JU_Set_User_Account_Status_To_Active_Active_User_Login"/>
+          <include name="Verification_Of_JU_Can_View_Status_History_Of_Users_Registered_In_Their_Jurisdiction"/>
+          <include name="verify_That_The_Users_Role_And_Access_In_the_Original_jurisdiction_After_Unsharing_The_User_Profile_With_Welcoming_Jurisdiction"/>
+          <include name="verification_Of_functionality_Of_Authority_Approval_For_Role_Change_Within_The_Service_Provider_Role_Type"/>
+          <include name="verification_Of_JU_Can_Approve_Role_Change_Proposed_BY_Another_JU_Under_Jurisdiction_User_Role_Type"/>
+          <include name="Verification_of_accessibility_of_Security_settings_option_on_User_Profile_if_user_has_rights_to_view_its_security_settings"/>
+          <include name="Verification_of_the_User_can_not_login_after_change_of_user_account_status_to_Close_by_JU"/>
+        </methods>
+      </class> <!-- Tests.UserManagementFunctionality -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)(failed)">
+    <classes>
+      <class name="HappyPathsRegMod1.AuthorityApproveAfterRegistrarSubmitRequestRevision">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="authority_Login_And_Approve_user"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- HappyPathsRegMod1.AuthorityApproveAfterRegistrarSubmitRequestRevision -->
+      <class name="HappyPathsRegMod1.OriginalRegistrarLoginAndUnshareUserProfile">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="start"/>
+          <include name="original_Jurisdiction_Registrar_Login_And_UnShare_User_Profile_With_Welcoming_jurisdiction"/>
+        </methods>
+      </class> <!-- HappyPathsRegMod1.OriginalRegistrarLoginAndUnshareUserProfile -->
+      <class name="HappyPathsRegMod1.ClosedAccountOfUserByRegistrar">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="start"/>
+          <include name="registrar_Closed_User_Account"/>
+        </methods>
+      </class> <!-- HappyPathsRegMod1.ClosedAccountOfUserByRegistrar -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="HappyPathsRegMod1.RegistrarDeniedProposedUserDetails">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="registrar_Login_And_Denied_Proposed_User_Details"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- HappyPathsRegMod1.RegistrarDeniedProposedUserDetails -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
